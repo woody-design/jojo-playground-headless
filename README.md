@@ -1,5 +1,7 @@
 # JoJoPlayground
 
+Designer-focused starter kit for AI vibe coding: guided workflow + pre-written rules to keep code aligned with your design. No coding experience required. No built-in design system—bring your own.
+
 Design in Figma, build in Cursor, preview in Xcode.
 
 ---
@@ -15,9 +17,8 @@ Design in Figma, build in Cursor, preview in Xcode.
 ## Step 2: Test
 
 1. Open **JoJoPlayground.xcodeproj** in Xcode
-2. In the top toolbar, select a **simulator** (e.g., iPhone 16)
-3. Press **Cmd + R** to build and run
-4. You should see the default "Hello, world!" screen — this confirms the project works
+2. Press **Cmd + R** to build and run
+3. You should see the default "Hello, world!" screen — this confirms the project works
 
 ---
 
@@ -25,7 +26,7 @@ Design in Figma, build in Cursor, preview in Xcode.
 
 1. Open the **JoJoPlayground** folder in Cursor
 2. Go to **Cursor Settings > Tools & MCP**. If there's no Figma MCP set up yet, search YouTube for "how to set up Figma MCP in Cursor" and follow the guide
-3. Find the **Figma** entry — toggle it **off**, wait a few seconds, then toggle it **back on**
+3. Find the **Figma** entry — toggle it **off**, wait a few seconds, then toggle it **back on** (this would reslove most mcp issues)
 4. Confirm the Figma MCP shows **green** (connected)
 
 ---
@@ -33,10 +34,10 @@ Design in Figma, build in Cursor, preview in Xcode.
 ## Step 4: Add Your Design System
 
 1. **Add fonts** — see `Fonts/_README.md` for step-by-step instructions
-2. **Define color tokens** — open `DesignSystem/Tokens/DSColors.swift` and add your colors
-3. **Define typography tokens** — open `DesignSystem/Tokens/DSTypography.swift` and add your type styles
-4. **Define spacing tokens** — open `DesignSystem/Tokens/DSSpacing.swift` and add your spacing scale
-5. **Update SPEC.md** — fill in the token tables in Section 5 so the AI knows your design system
+2. **Define color tokens** — Follow youtube instruction or prompt the AI to add it
+3. **Define typography tokens** — Follow youtube instruction or prompt the AI to add it
+4. **Define spacing tokens** — Follow youtube instruction or prompt the AI to add it
+5. **Update SPEC.md** — Prompt AI to fill in the token tables in Section 5 so the AI knows your design system
 
 ---
 
