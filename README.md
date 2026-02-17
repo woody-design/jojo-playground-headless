@@ -14,15 +14,7 @@ Design in Figma, build in Cursor, preview in Xcode.
 
 ---
 
-## Step 2: Test
-
-1. Open **JoJoPlayground.xcodeproj** in Xcode
-2. Press **Cmd + R** to build and run
-3. You should see the default "Hello, world!" screen — this confirms the project works
-
----
-
-## Step 3: Connect Figma
+## Step 2: Connect Figma
 
 1. Open the **JoJoPlayground** folder in Cursor
 2. Go to **Cursor Settings > Tools & MCP**. If there's no Figma MCP set up yet, search YouTube for "how to set up Figma MCP in Cursor" and follow the guide
@@ -31,7 +23,7 @@ Design in Figma, build in Cursor, preview in Xcode.
 
 ---
 
-## Step 4: Add Your Design System
+## Step 3: Add Your Design System
 
 1. **Add fonts** — see `Fonts/_README.md` for step-by-step instructions
 2. **Define color tokens** — Follow youtube instruction or prompt the AI to add it
@@ -41,7 +33,7 @@ Design in Figma, build in Cursor, preview in Xcode.
 
 ---
 
-## Step 5: Design & Build
+## Step 4: Design & Build
 
 1. Design your screens in **Figma** following the conventions in SPEC.md
 2. Share **Figma URLs** with Cursor (right-click frame > "Copy link to selection")
