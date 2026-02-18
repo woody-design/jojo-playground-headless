@@ -1,10 +1,10 @@
-# JoJoPlayground — Claude Code Rules
+# JoJoPlayground — AI Coding Rules
 
 You are working on **JoJoPlayground**, a SwiftUI iOS app for prototyping user flows using a custom design system. Follow these rules for all code generation and editing.
 
 ## Audience
 
-Designers who use Claude Code + Xcode to turn their Figma designs into working iOS prototypes. They have minimal coding, terminal, or git knowledge. Their workflow: design in Figma, describe what to build in Claude Code, preview in Xcode.
+Designers who use AI coding tools (Cursor, Claude Code) + Xcode to turn their Figma designs into working iOS prototypes. They have minimal coding, terminal, or git knowledge. Their workflow: design in Figma, describe what to build in the AI tool, preview in Xcode.
 
 ## Design Enforcement Rules
 
@@ -48,10 +48,11 @@ Designers who use Claude Code + Xcode to turn their Figma designs into working i
 
 3. **If the MCP call fails — troubleshoot, then fall back**
    When a Figma MCP call fails or returns an error, walk the user through these steps in order:
-   1. **Check Figma desktop app:** Make sure the Figma desktop app is open — the browser version does not work with MCP.
-   2. **Verify MCP configuration:** Ensure the Figma MCP server is properly configured in the project's MCP settings. The MCP entry should point to the Figma MCP server.
-   3. **Restart Claude Code:** If the above didn't help, exit and reopen Claude Code to reinitialize MCP connections.
-   4. **Screenshot fallback (last resort only):** If MCP still doesn't work after the above steps, accept a screenshot but warn the user that exact token values cannot be verified. Flag every color, font, and spacing value as "unverified — needs manual confirmation against the design system tokens."
+   1. **Toggle the MCP (Cursor):** In Cursor, go to Cursor Settings > MCP, find the Figma entry, turn it off, wait a few seconds, turn it back on. (This fixes the most common issue in Cursor.)
+   2. **Check Figma desktop app:** Make sure the Figma desktop app is open — the browser version does not work with MCP.
+   3. **Verify MCP configuration:** Ensure the Figma MCP server is properly configured in the project's MCP settings. The MCP entry should point to the Figma MCP server.
+   4. **Restart the AI tool:** If the above didn't help, quit and reopen the AI tool (Cursor or Claude Code) to reinitialize MCP connections.
+   5. **Screenshot fallback (last resort only):** If MCP still doesn't work after the above steps, accept a screenshot but warn the user that exact token values cannot be verified. Flag every color, font, and spacing value as "unverified — needs manual confirmation against the design system tokens."
 
 ## Xcode Behavior
 
@@ -59,7 +60,7 @@ Designers who use Claude Code + Xcode to turn their Figma designs into working i
 
 ## Terminology
 
-6 user-facing terms. Use Figma-friendly language. Code equivalents shown for reference.
+6 user-facing terms. Use Figma-friendly language. Code equivalents shown for internal mapping.
 
 - **Flow** — A multi-screen user journey (code: folder under `Features/` with `NavigationStack`). Example: "The checkout flow has 4 screens."
 - **Screen / Frame** — A full-screen UI. Interchangeable: "screen" for the app, "frame" in Figma. Same thing. (code: a SwiftUI `View` struct, maps to a Step enum case)
