@@ -1,7 +1,7 @@
 # Adding a New Flow to JoJoPlayground
 
 > Step-by-step checklist for adding a new multi-screen flow.
-> Tell Cursor: *"Create a new flow called [YourFlowName] following FLOW_TEMPLATE.md"*
+> Tell Claude Code: *"Create a new flow called [YourFlowName] following FLOW_TEMPLATE.md"*
 
 ---
 

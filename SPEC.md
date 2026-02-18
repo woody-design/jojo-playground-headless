@@ -102,7 +102,7 @@ JoJoPlayground/
 │               ├── FirstScreenView.swift
 │               └── ...
 │
-├── .cursor/rules/jojoplayground.mdc  # Cursor AI rules
+├── CLAUDE.md                          # Claude Code AI rules
 ├── FLOW_TEMPLATE.md                  # How to add a new flow
 ├── SPEC.md                           # This file
 └── README.md                         # Getting started guide

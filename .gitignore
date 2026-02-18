@@ -17,3 +17,7 @@ Package.resolved
 
 # Cursor / IDE
 .cursor/plans/
+
+# Claude Code
+.claude/plans/
+.claude/settings.local.json

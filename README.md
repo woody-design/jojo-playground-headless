@@ -2,24 +2,24 @@
 
 Designer-focused starter kit for AI vibe coding: guided workflow + pre-written rules to keep code aligned with your design. No coding experience required. No built-in design system—bring your own.
 
-Design in Figma, build in Cursor, preview in Xcode.
+Design in Figma, build with Claude Code, preview in Xcode.
 
 ---
 
 ## Step 1: Set Up
 
 1. Install **Xcode** (free from the Mac App Store)
-2. Install **Cursor** (from [cursor.sh](https://cursor.sh))
+2. Install **Claude Code** (from [claude.ai/download](https://claude.ai/download))
 3. Install the **Figma desktop app** (not the browser version — MCP requires the desktop app)
 
 ---
 
 ## Step 2: Connect Figma
 
-1. Open the **JoJoPlayground** folder in Cursor
-2. Go to **Cursor Settings > Tools & MCP**. If there's no Figma MCP set up yet, search YouTube for "how to set up Figma MCP in Cursor" and follow the guide
-3. Find the **Figma** entry — toggle it **off**, wait a few seconds, then toggle it **back on** (this would reslove most mcp issues)
-4. Confirm the Figma MCP shows **green** (connected)
+1. Open the **JoJoPlayground** folder in Claude Code
+2. Set up the **Figma MCP** server in your Claude Code MCP settings. If you haven't set up Figma MCP yet, search YouTube for "how to set up Figma MCP in Claude Code" and follow the guide
+3. Make sure the **Figma desktop app** is open (not the browser version)
+4. Test the connection by asking Claude Code to read a Figma URL
 
 ---
 
@@ -36,16 +36,16 @@ Design in Figma, build in Cursor, preview in Xcode.
 ## Step 4: Design & Build
 
 1. Design your screens in **Figma** following the conventions in SPEC.md
-2. Share **Figma URLs** with Cursor (right-click frame > "Copy link to selection")
-3. Tell Cursor what to build — it will generate SwiftUI code using your design system tokens
+2. Share **Figma URLs** with Claude Code (right-click frame > "Copy link to selection")
+3. Tell Claude Code what to build — it will generate SwiftUI code using your design system tokens
 4. Press **Cmd + R** in Xcode to preview
-5. Iterate: make changes in Cursor, build in Xcode, repeat
+5. Iterate: make changes in Claude Code, build in Xcode, repeat
 
 ---
 
-## Using Claude Code Instead of Cursor?
+## Using Cursor Instead of Claude Code?
 
-See **CLAUDE_CODE_SETUP.md** for a quick setup guide.
+See **[CURSOR_SETUP.md](CURSOR_SETUP.md)** for a quick setup guide.
 
 ---
 
@@ -53,4 +53,4 @@ See **CLAUDE_CODE_SETUP.md** for a quick setup guide.
 
 - **[SPEC.md](SPEC.md)** — Design system tokens, architecture, and conventions
 - **[FLOW_TEMPLATE.md](FLOW_TEMPLATE.md)** — Step-by-step guide for adding new flows
-- **[CLAUDE_CODE_SETUP.md](CLAUDE_CODE_SETUP.md)** — Setup guide for Claude Code users
+- **[CURSOR_SETUP.md](CURSOR_SETUP.md)** — Setup guide for Cursor users
